@@ -23,4 +23,4 @@ clf.fit(X_train, y_train)
 print(clf.score(X_test, y_test))
 
 print("Saving model to pickle file.")
-pickle.dump(clf, open("E:\Khai phá\competition-AI\iris_model.pkl", 'wb'))
+pickle.dump(clf, open("iris_model.pkl", 'wb'))
